@@ -1,3 +1,6 @@
+const { bot, isPrivate } = require("../lib");
+
+
 bot({
   pattern: 'button$',
   fromMe: true,
